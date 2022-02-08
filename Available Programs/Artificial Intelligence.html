@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIAIC</title>
+    <style>
+        
+/* body start */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+._1stdiv{
+    width:100% ;
+    height: 690px;
+    background-color: #192a56;
+    text-align: center;
+    color: white;
+    
+}
+#_HEAD{
+    margin-top:60px ;
+    color: white;
+    margin-top: 290px;
+    font-size: 80px;
+    font-weight: bold;
+}
+._flex{
+    display: flex;
+    justify-content: center;
+  
+}
+#_para{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/*2nd part*/
+
+#_2nd-part-main{
+    height: 800px;
+    background-color: white;
+}
+
+#_2nd-part{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 80px;
+    
+}
+
+#_font-p{
+    font-size: 40px;
+}
+
+#_font-a{
+    font-size: 22px;
+    color: #192a56;
+    font-weight: bold;
+}
+
+#_2nd-part-1{
+    display: flex;
+    justify-content: left;
+    padding-left: 50px;
+}
+
+
+._quater-child1{
+    width: 310px;
+    height: 260px;
+    background-color: #ffffff;
+    border: 1px solid white;
+    box-shadow: 15px 15px 15px 10px #d3d3d3;
+    border-radius: 10px;
+}
+._quater-child2{
+    width: 310px;
+    height: 260px;
+    background-color: #8b94aa;
+    border: 1px solid white;
+    box-shadow: 15px 15px 15px 10px #d3d3d3;
+    border-radius: 10px;
+}
+._quater-child3{
+    width: 310px;
+    height: 260px;
+    background-color: #515f80;
+    border: 1px solid white;
+    box-shadow: 15px 5px 5px 5px #e4e4e4;
+    border-radius: 10px;
+}
+._quater-child4{
+    width:310px;
+    height: 260px;
+    background-color: #192a56;
+    border: 1px solid none;
+    box-shadow: 15px 15px 15px 10px #d3d3d3;
+    border-radius: 10px;
+}
+
+._quaters{
+    display: flex;
+    justify-content: row;
+    width: 100%;
+    height: 350px;
+    background-color: ffffff;
+    justify-content: space-around;
+    
+}
+#_qchild{
+    color: darkblue;
+    margin: 50px 20px 50px 80px ;
+}
+._qchild2{color: white;
+    margin: 50px 20px 50px 80px ;
+}
+.div-child{
+    width: 100%;
+    height: 350px;
+    background-color: ffffff;
+    display: flex;
+    justify-content: row;
+    justify-content: space-around;
+}
+._head2{
+   margin: 0px 60px 0px 50px;
+   color: seagreen;
+   font-size: 40px;
+}
+._quatersmarg{
+    margin-top: 40px;
+}
+
+/*#rd div*/
+  
+._3rddiv{
+    width: 100%;
+    height: 1500px;
+    background-color: ffffff;
+   
+    margin-top: 250px;
+}
+._main-heading-3rd-div{
+    margin-top: 100px;
+    color: darkblue;
+    font-size: 50px;
+    text-align: center;
+}
+._3rdchild-div{
+    width: 400px;
+    height: 330px;
+    border: 1px solid #dedede;
+    box-shadow: 10px 0px 15px 5px #dedede;
+    margin-top: 40px;
+    
+  
+}
+._reset3{
+    margin-top:250px ;
+}
+._margin-top-2{
+    margin-top: 190px;
+}
+._reset{
+    margin-top: 100px;
+}
+
+ ._hdg--3{
+    float: left;
+    position: relative;
+    left: 5px;
+    top: 30px;
+    
+} 
+
+._flexquaters{
+    display: flex;
+    justify-content: row;
+    float: left;
+    text-align: justify;
+    margin-top: 60px;
+    
+}
+._imglogo{
+    margin-left: 20px;
+    margin-right: 10px;
+    border: 1px dotted black;
+}
+.topmargin2{
+    margin-top: 400px;
+    height: 400px;
+}
+._p-margin{
+    margin-right: 30px;
+    position: relative;
+    /* left: 20px; */
+    font-size: 8px;
+    margin-left: 20px;
+}
+.Row{
+    display: flex;
+    justify-content: row;
+    justify-content: space-evenly;
+}
+.circle{border: 1px solid black;
+    padding: 50px;
+    border-radius: 50px;
+    
+
+}
+
+/* _line on y-axis css */
+._line-on-y-axis{
+    border: 1px solid black;
+    padding: 30px;
+    position: relative;
+    top: 60px;
+    border-radius: 50px;
+    
+
+}
+._verticalinstart{
+    width: 0px;
+    height: 250px;
+    border: medium solid #192a56;
+    margin: 30px 0px;
+    position: relative;
+    top: 60px;
+    left: 40px;
+    box-shadow: 10px 10px 50px #535f80;
+}
+._verticalinstart2{ width: 0px;
+    height: 220px;
+    border: medium solid #192a56;
+    box-shadow: 10px 10px 50px #535f80;
+    margin: 30px 0px;
+    position: relative;
+    top: 60px;
+    left: 40px;
+
+}
+._verticalinstart3{ width: 0px;
+    height: 150px;
+    border: medium solid #192a56;
+    box-shadow: 10px 10px 50px #535f80;
+    margin: 30px 0px;
+    position: relative;
+    top: 60px;
+    left: 40px;
+
+}
+
+._verticalinstart5{ width: 0px;
+    height: 200px;
+    border: medium solid #192a56;
+    box-shadow: 10px 10px 50px #535f80;
+    margin: 30px 0px;
+    position: relative;
+    top: 60px;
+    left: 40px;}
+._vertical5{
+    height: 170px;
+}
+.clor_of{
+    background-color: #8b94aa;
+    color: white;
+
+
+}
+._2clor{background-color: #525f80;
+    color: white;
+ 
+}
+._4clor{
+    background-color:    #525f80;
+    color: white;
+
+}
+
+/* .topmargin3{
+    margin-top: 200px;
+} */
+
+   ._3child-div{
+    width: 400px;
+    height: 200px;
+    border: 1px solid #dedede;
+    box-shadow: 10px 0px 15px 5px #dedede;
+}
+.top{
+    margin-top: 50px;
+}
+._footer{
+    width: 100%; height: 80px;
+    background-color: #12232f;
+    color: white; 
+    margin-top: 30px;
+}
+.flot_right{
+    float: right;
+}
+
+
+
+/* cloud native page css start */
+.changes{
+    background-color: #e22d6a;
+    font-size: 20px;
+}
+
+._changes2{
+    
+    font-size: 30px;
+}
+._2nddiv{
+    width: 800px;
+    height: 270px;
+    background-color:#ffffff ;
+    position: relative;
+    top: 20px;
+    z-index: -1;
+}
+.changesbox_3{
+   height: 200px;
+}
+._margin{
+   margin-left: 20px;
+} 
+.foot{
+    position: relative;
+    top: 70px;
+}
+.colorchg{
+    border: 1px solid red;
+}
+.colorchg2{
+    background-color: #eb7db3;
+    
+}
+.colorchg3{
+    background-color:#e73f8f ;
+}
+._3rdpge_changes{
+    background-color: #f3c20f;
+}
+.colorchg04{ border: 4px solid #f8e182;
+
+}
+._3divwidth{ width: 100%;
+    height: 2000px;
+    background-color:#ffffff;
+   
+    margin-top: 60px;
+
+    
+}
+.changesbox_00{
+    height: 300px;
+}
+.colorchg5{
+    background-color:#f8e182 ;
+}
+.colorchg6{
+    background-color: #f5d24d;
+}
+.changes_last{
+    background-color: #1b8f8b;
+    font-size: 20px;
+}
+
+/* #_quaters_postn{
+    position: relative;
+    left: 30px;
+} */
+.fourth_chg{
+    height: 200px;
+}
+._topsetng{
+    margin-top:200px ;            
+}
+.colorchg_last{
+    border:1px solid #1b8f8b;
+    background-color: #1b8f8b;
+}
+.topmargin_last{
+    margin-top: 300px;
+}
+._yar{
+    margin-top: 400px;
+}
+
+
+    </style>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="_header">
+        <div>
+            <a href="../index.html"><img src="../images/Logo.1624cca8.svg" alt="" width="90px" height="150px" class="_img"></a>
+        </div>
+        <div class="_flex">
+        
+        <div class="one">
+          <div class="head"><a href="../pages/How its Work.html" class="_one">How Its Work</a></div>
+          <div class="head"><a href="../Apply/Sign Up.html" class="_one " target="_blank">Apply</a></div>
+          <div class="dropdown">
+            <button class="dropbtn" class="head _one"  >Avalible Programs <img  class="_white" src="../images/icons8-sort-down-10.png" alt=""></button>
+            <div class="dropdown-content">
+              <a href="./Artifical Intelligance.html">Artifical Intelligance</a>
+              <div class="_underline"> </div>
+              <a href="../Available Programs/Cloud Native and Mobile Web Computing.html">Clould Native And Mobile Web</a>
+              <div class="_underline"> </div>
+              <a href="./Blockchain.html">Blockchain</a>
+              <div class="_underline"> </div>
+              <a href="./Internet Of Things And Al.html">Internet Of Things And Al</a>
+            </div>
+          </div>
+        
+        
+          <div class="dropdown">
+          <button class="dropbtn" class="head _one" style="margin-left: 30px;" >About</button><img class="_white" src="../images/icons8-sort-down-10.png" alt="">
+          <div class="dropdown-content">
+            <a href="../About/The President.html">The President</a></div>
+        </div>
+          
+          <div class="head"><a href="../pages/WIT.html" class="_one" >WIT</a></div>
+          
+            </div>  
+        
+        </div>
+        </div>  
+
+        <!-- body start -->
+<div class="_1stdiv"> 
+    <div class="_flex">  
+<SPAN id="_HEAD">Artificial Intelligence<br />
+<p id="_para">A ONE YEAR AI PROGRAM DESIGNED FOR ABSOLUTE BEGINNERS.<br />
+    GETTING PAKISTAN READY FOR THE NEW ERA OF COMPUTING ENABLED BY THE RISE OF AI.</p>
+
+</SPAN>
+</div>
+</div>
+</div>
+
+
+<!--2nd part-->
+<div id="_2nd-part-main">
+<div id="_2nd-part" >
+    <div>
+        <p id="_font-p">Program Structure</p><br>
+        <p id="_font-a">A four-quarter AI program in Data Science, Machine Learning,<br> and Deep Learning.</p><br><br><br><br>
+    </div> <br>
+</div>
+
+    <div id="_2nd-part-1">
+        <p style="font-size: 40px; color:rgb(76, 87, 54);">Technical Track</p>
+    </div><br><br>
+    
+<div class="_quaters">
+    
+    <div class="_quater-child1">
+        <div id="_qchild">
+        <h1> Quarter 1</h1><br>
+       <p style="padding-left: 20px;"> AI Foundations</p>
+    </div>
+    </div>
+    <div class="_quater-child2">
+    <div class="_qchild2">
+       <h1> Quarter 2</h1><br>
+    <p style=""> Introduction to Data Science & Deep Learning</p>
+    </div>
+    </div>
+    
+        <div class="_quater-child3">
+            <div class="_qchild2">
+                <h1> Quarter 3</h1><br>
+             <p style="padding-right: 30px;"> Deploying AI Solutions</p>
+             </div>
+        </div>
+        <div class="_quater-child4">
+            <div class="_qchild2">
+                <h1> Quarter 4</h1><br>
+             <p style="padding-left: 20px;"> AI In Practice</p>
+             </div>
+        </div>
+       
+    </div>
+    
+    <div>
+        <p style="font-size: 40px; color:rgb(76, 87, 54); padding-left: 50px;">
+            Compulsory Innovation Track
+        </p>
+    </div>
+    <!-- divchild in a 2nd div  -->
+    <div class="div-child">
+        <div class="_quatersmarg">
+            <img src="../images/gif.gif" height="200px" width="200px" alt="">
+        </div>
+        <div class="_quater-child3 _quatersmarg" style="background-color: #fff; color: black;">
+            <div class="_qchild2" style="color: black;">
+                <h1> Quarter 1</h1><br>
+             <p> Innovation Methodologies</p>
+             </div>
+        </div>
+        <div class="_quater-child3 _quatersmarg" style="background-color: #424242;">
+            <div class="_qchild2">
+                <h1> Quarter 2</h1><br>
+             <p> Infrastructure As Codes Are Develops</p>
+             </div>
+        </div>
+        <div class="_quater-child3 _quatersmarg" style="background-color: #000000;">
+            <div class="_qchild2">
+                <h1> Quarter 3</h1><br>
+             <p> Lean UI/UX And Bot Design</p>
+             </div>
+        </div>
+        
+         </div>
+        </div>
+
+</div>
+
+<div>
+
+    <div style="width: 1500px; height: 0px; border: 1px dotted rgba(0, 0, 0, 0.637); position: absolute ; margin-left: 50px; margin-top: 200px;">
+           
+    </div> 
+    
+</div>
+
+    <!-- 3rd div start -->
+<div class="_3rddiv">
+
+    <center><span class="_main-heading-3rd-div" >Detailed Program Structure</span></center>
+    <div class="Row">
+
+        
+<div class="_display-flex">
+    <!-- 1st box -->
+    <div class="_3rdchild-div top">
+       <h3 class="_hdg--3"> Version Control with Git</h3><BR /><br />
+       <div class="_flexquaters">
+        <div class="box_img" ><img src="../images/download (1).png" width="90px" height="90px"  class="_imglogo" alt=""> </div>
+       
+      <div class="_p-margin">
+        You won't find a top programmer, web developer, or AI engineer who doesn't use version control. This is true because version control helps developers produce better results and makes collaboration easy. Around the world, in teams both large and small, Git is an essential part of the toolchain. This module covers Git and Github.</div> 
+    </div>
+
+
+
+
+
+<!-- heading2 div close -->
+</div>
+<div class="_margin-top-2" >
+    <!-- 2n box -->
+    <div class="_3rdchild-div">
+       <h3 class="_hdg--3"> Introduction to Linear Algebra and Statistics</h3><BR /><br />
+       <div class="_flexquaters">
+        <div class="box_img" ><img src="./imge_2/download (3).png" width="90px" height="90px"  class="_imglogo" alt=""> </div>
+       
+      <div class="_p-margin">
+        In this module, students will learn the basic mathematical and statistical concepts that are needed to practice data science and understand deep learning. Students will also implement these concepts in Python and TensorFlow</div> 
+    </div>
+
+
+
+</div>
+
+</div>
+
+<!-- box 3 -->
+<div class="_margin-top-2" >
+    <div class="_3rdchild-div">
+       <h3 class="_hdg--3">Data Science Essentials</h3><BR /><br />
+       <div class="_flexquaters">
+        <div class="box_img" ><img src="../images/download (44).png" width="90px" height="90px"  class="_imglogo" alt=""> </div>
+       
+      <div class="_p-margin">
+        In this module, students will learn key concepts and techniques used to perform data science; including statistical analysis, data cleansing and transformation, and data visualization with Python.</div> 
+    </div>
+
+
+
+</div>
+
+</div>
+<!-- box 4 -->
+<div class="_margin-top-2 " >
+    <div class="_3rdchild-div">
+       <h3 class="_hdg--3">Introduction to Linux and Bash</h3><BR /><br />
+       <div class="_flexquaters">
+        <div class="box_img" ><img src="./imge_2/55.png" width="90px" height="90px"  class="_imglogo" alt=""> </div>
+       
+      <div class="_p-margin">
+        Linux containers are poised to take over the world. In this module, students will begin learning with an introduction of Linux and the command line interface. For many non-technical people, the command line (also referred to as CLI, Terminal, bash, or shell) is a place of mystery. However, knowledge of only a handful of basic commands is enough to start feeling comfortable. In this module, we will cover the basic commands to get you started.</div> 
+    </div>
+
+
+
+</div>
+
+</div>
+
+<!-- box 5 -->
+<div class=" _margin-top-2" >
+    <div class="_3rdchild-div">
+       <h3 class="_hdg--3">Python Microservices Development</h3><BR /><br />
+       <div class="_flexquaters">
+        <div class="box_img" ><img src="./imge_2/66.png" width="90px" height="90px"  class="_imglogo" alt=""> </div>
+       
+      <div class="_p-margin">
+        In recent years, REST (REpresentational State Transfer) has emerged as the standard architectural design for web services and web APIs. In this module, students will learn how easy it is to create a RESTfulweb service using Python and Flask.</div> 
+    </div>
+
+
+
+</div>
+
+</div>
+
+<!-- box 6 -->
+<div class=" _margin-top-2" >
+    <div class="_3rdchild-div">
+       <h3 class="_hdg--3">Artificial Intelligence (AI) in Practice</h3><BR /><br />
+       <div class="_flexquaters">
+        <div class="box_img" ><img src="./imge_2/77.png" width="90px" height="90px"  class="_imglogo" alt=""> </div>
+       
+      <div class="_p-margin">
+        This module is structured around a series of practical code examples, demonstrating on real world problems. PIAIC strongly believes in the value of teaching using concrete examples, anchoring theoretical ideas into actual results and tangible code patterns. These examples all rely on Keras, the Python deep learning library. Students will learn Deep Learning for computer vision, text and sequences, finance, and advanced neural network design.
+    </div> 
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+<!-- 3rd div closed -->
+</div>
+
+
+
+
+<!-- line on y-axis -->
+
+<div>
+
+
+   <span class="_line-on-y-axis">1A</span> 
+<div class="_verticalinstart">
+</div>
+
+
+<span class="_line-on-y-axis">1B</span> 
+<div class="_verticalinstart2">
+
+</div>
+<span class="_line-on-y-axis"> 1C</span> 
+<div class="_verticalinstart3">
+
+</div>
+ 
+<span class="_line-on-y-axis clor_of">2A </span> 
+<div class="_verticalinstart3">
+
+</div>
+
+<span class="_line-on-y-axis clor_of">2B</span> 
+<div class="_verticalinstart5">
+
+</div>
+
+<span class="_line-on-y-axis clor_of">2C</span> 
+<div class="_verticalinstart5">
+
+</div>
+
+<span class="_line-on-y-axis _2clor">3A</span> 
+<div class="_verticalinstart5 _vertical5">
+
+</div>
+<span class="_line-on-y-axis _2clor">3B</span> 
+<div class="_verticalinstart5 ">
+
+</div>
+<span class="_line-on-y-axis _2clor">3C</span> 
+<div class="_verticalinstart3">
+
+</div>
+
+<span class="_line-on-y-axis _2clor">3D</span> 
+<div class="_verticalinstart3">
+
+</div>
+
+<span class="_line-on-y-axis _4clor">4</span> 
+<!-- center line close -->
+</div>
+
+
+
+
+
+<div class="_centerline">
+ 
+ <!-- 2n box -->
+ <div class=" _reset3 _yar" >
+     
+     <div class="_3child-div ">
+        <h3 class="_hdg--3"> Object Oriented and Functional Programming using Python</h3><BR /><br />
+        <div class="_flexquaters">
+         <div class="box_img" ><img src="./imge_2/download (2).png" width="90px" height="90px"  class="_imglogo" alt=""> </div>
+        
+       <div class="_p-margin">
+        n the second module of the program, students will learn about basic programming concepts such as lists, dictionaries, classes, functions and loops, and practice writing clean and readable code with exercises for each topic. Students will also learn how to make programs interactive and how to test code safely before adding it to a project. It is a fast-paced, thorough introduction to programming with Python 3.6 that will have students writing programs, solving problems, and making things that work in no time.
+
+
+        </div> 
+     </div>
+ 
+ 
+ 
+ </div>
+ 
+ </div>
+ 
+ <!-- box 3 -->
+ <div class="_reset3">
+     <div class="_3child-div">
+        <h3 class="_hdg--3">Advanced Python Libraries with Anaconda</h3><BR /><br />
+        <div class="_flexquaters">
+         <div class="box_img" ><img src="./imge_2/download (4).png" width="90px" height="90px"  class="_imglogo" alt=""> </div>
+        
+       <div class="_p-margin">
+         In this module, students will be introduced to Anaconda, the leading open data science platform powered by Python. The open source version of Anaconda is a high performance distribution of Python and R and includes over 100 of the most popular Python and R packages for data science, such as NumPy, Matplotlib, etc.
+        </div> 
+     </div>
+ 
+ 
+ 
+ </div>
+ 
+ </div>
+ <!-- box 4 -->
+ <div class=" _reset3" >
+     <div class="_3child-div">
+        <h3 class="_hdg--3">The Fundamentals of Deep Learning with Keras with TensorFlow Backend</h3><BR /><br />
+        <div class="_flexquaters">
+         <div class="box_img" ><img src="./imge_2/download (10).png" width="90px" height="90px"  class="_imglogo" alt=""> </div>
+        
+       <div class="_p-margin">
+        Before implementing deep-learning algorithms, students will first become familiar with the mathematical blocks of the neural networks theory. Students will get a chance to get their hands dirty writing some simple Keras code right away! Then they will move on to advanced deep learning concepts. This module will also cover some essential advantages of Keras to prove it’s the deep-learning library of choice.
+    </div> 
+     </div>
+ 
+ 
+ 
+ </div>
+ 
+ </div>
+ 
+ <!-- box 5 -->
+ <div class=" _reset3" >
+     <div class="_3rdchild-div">
+        <h3 class="_hdg--3">Docker Deep Dive</h3><BR /><br />
+        <div class="_flexquaters">
+         <div class="box_img" ><img src="./imge_2/download (11).png" width="90px" height="90px"  class="_imglogo" alt=""> </div>
+        
+       <div class="_p-margin">
+        This module provides a soup-to-nuts learning experience for core Docker technologies, including the Docker Engine, Images, Containers, Registries, Networking, Storage, and more. All of the behind the scenes theory is explained, and all concepts are clearly demonstrated on the command line. No prior knowledge of Docker or Linux is required.</div> 
+     </div>
+ 
+ 
+ 
+ </div>
+ 
+ </div>
+ 
+ <!-- box 6 -->
+ <div class=" _reset3" >
+     <div class="_3rdchild-div">
+        <h3 class="_hdg--3">Build AI Microservices for ContainerDeployments</h3><BR /><br />
+        <div class="_flexquaters">
+         <div class="box_img" ><img src="./imge_2/download (12).png" width="90px" height="90px"  class="_imglogo" alt=""> </div>
+        
+       <div class="_p-margin">
+        In this module, students will learn to use containers to simplify AI solution deployments and implement continuous integration and deployment strategies.
+     </div> 
+     </div>
+ </div>
+ </div>
+
+
+
+
+
+
+
+
+
+
+<!-- centerline closed -->
+ </div> 
+ 
+
+
+
+
+
+
+    
+<!-- row end -->
+</div>
+<!-- footer -->
+<div class="_footer">
+    <div class="flot_right">
+    <div>Powered by</div>
+    <a href="https://www.panacloud.ai/"><img src="../images/panacloudfootericon.130c4779.png" width="70px" height="50px" alt="" ></a>
+
+    </div>
+</div>
+
+    
+</body>
+</html>
